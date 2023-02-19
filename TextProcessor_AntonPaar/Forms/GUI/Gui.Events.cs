@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TextProcessor;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TextProcessor_AntonPaar.Forms.GUI
 {
@@ -122,8 +123,8 @@ namespace TextProcessor_AntonPaar.Forms.GUI
         private void OnProgressChanged(object sender, double percentComplete)
         {
             // update the progress bar with the percent complete value
-
             UpdateProgressBar(percentComplete);
+
         }
     }
 }

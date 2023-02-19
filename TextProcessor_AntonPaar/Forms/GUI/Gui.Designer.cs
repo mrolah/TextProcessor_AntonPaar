@@ -34,6 +34,7 @@
             this.BtnCancel = new System.Windows.Forms.Button();
             this.DataGridView = new System.Windows.Forms.DataGridView();
             this.LblStatus = new System.Windows.Forms.Label();
+            this.LblPercentage = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +67,7 @@
             // 
             // BtnCancel
             // 
-            this.BtnCancel.Location = new System.Drawing.Point(351, 186);
+            this.BtnCancel.Location = new System.Drawing.Point(351, 199);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Size = new System.Drawing.Size(75, 23);
             this.BtnCancel.TabIndex = 3;
@@ -90,11 +91,20 @@
             this.LblStatus.Size = new System.Drawing.Size(0, 13);
             this.LblStatus.TabIndex = 5;
             // 
+            // LblPercentage
+            // 
+            this.LblPercentage.AutoSize = true;
+            this.LblPercentage.Location = new System.Drawing.Point(382, 180);
+            this.LblPercentage.Name = "LblPercentage";
+            this.LblPercentage.Size = new System.Drawing.Size(0, 13);
+            this.LblPercentage.TabIndex = 6;
+            // 
             // Gui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LblPercentage);
             this.Controls.Add(this.LblStatus);
             this.Controls.Add(this.DataGridView);
             this.Controls.Add(this.BtnCancel);
@@ -117,5 +127,6 @@
         private System.Windows.Forms.Button BtnCancel;
         private System.Windows.Forms.DataGridView DataGridView;
         private System.Windows.Forms.Label LblStatus;
+        private System.Windows.Forms.Label LblPercentage;
     }
 }

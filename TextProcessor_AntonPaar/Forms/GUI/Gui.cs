@@ -14,6 +14,8 @@ namespace TextProcessor_AntonPaar.Forms.GUI
     ///     - Main: Gui.cs
     ///     - Events: Gui.Events.cs
     ///     - Design elements: Gui.Design.cs
+    ///
+    /// Application tested with 150 MB files
     /// </summary>
 
     public partial class Gui : Form
@@ -38,12 +40,11 @@ namespace TextProcessor_AntonPaar.Forms.GUI
             InitializeComponent();
             _fileParser = new FileParser();
             _fileParser.ProgressChanged += OnProgressChanged;
-            ;
-
             BtnProcess.Enabled = false;
             BtnCancel.Enabled = false;
             LblStatus.Enabled = false;
             LblStatus.Text = "";
+           
         }
     }
 
