@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextProcessor_AntonPaar", "TextProcessor_AntonPaar\TextProcessor_AntonPaar.csproj", "{13A824F3-B594-41AB-9B37-D8D9F091D0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextProcessor", "TextProcessor\TextProcessor.csproj", "{D03AE0F8-B6C0-4DCC-8E18-A383911BD80E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A824F3-B594-41AB-9B37-D8D9F091D0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A824F3-B594-41AB-9B37-D8D9F091D0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A824F3-B594-41AB-9B37-D8D9F091D0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A824F3-B594-41AB-9B37-D8D9F091D0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03AE0F8-B6C0-4DCC-8E18-A383911BD80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03AE0F8-B6C0-4DCC-8E18-A383911BD80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03AE0F8-B6C0-4DCC-8E18-A383911BD80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03AE0F8-B6C0-4DCC-8E18-A383911BD80E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17472647-DE7C-424A-8822-76EDA5514987}
+	EndGlobalSection
+EndGlobal
